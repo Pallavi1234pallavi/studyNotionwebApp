@@ -4,6 +4,7 @@ import loginImg from "../assets/login.png"
 
 const Login = ({setIsLoggedIn}) => {
   return (
+    <div classname="  h-screen w-screen bg-black ">
     <Template
       title="Welcome Back"
       desc1="Build skills for today, tomorrow, and beyond."
@@ -12,6 +13,7 @@ const Login = ({setIsLoggedIn}) => {
       formtype="login"
       setIsLoggedIn={setIsLoggedIn}
     />
+    </div>
   )
 }
 

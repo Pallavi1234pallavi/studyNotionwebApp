@@ -4,6 +4,8 @@ import Template from '../components/Template'
 
 const Signup = ({setIsLoggedIn}) => {
   return (
+    <div className='' >
+    
     <Template
       title="Join the millions learning to code with StudyNotion for free"
       desc1="Build skills for today, tomorrow, and beyond."
@@ -12,6 +14,7 @@ const Signup = ({setIsLoggedIn}) => {
       formtype="signup"
       setIsLoggedIn={setIsLoggedIn}
     />
+    </div>
   )
 }
 

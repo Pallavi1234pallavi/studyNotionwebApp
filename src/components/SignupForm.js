@@ -57,7 +57,7 @@ console.log("printing final account data ");
 
 
   return (
-    <div className=''>
+    <div className='' >
         {/* student-Instructor tab */}
         <div className='flex bg-richblack-800 p-1 gap-x-1 my-6 rounded-full max-w-max'>
             <button 

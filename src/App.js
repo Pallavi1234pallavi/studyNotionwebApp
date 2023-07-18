@@ -17,7 +17,7 @@ function App() {
   
 
   return (
-    <div className=" bg-black flex flex-col">
+    <div className=" bg-black flex flex-col ">
       <Navbar isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}/>
 
       <Routes>
