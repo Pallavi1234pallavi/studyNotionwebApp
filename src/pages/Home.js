@@ -1,5 +1,5 @@
 import React from 'react'
-import frameImage from "../assets/frame.png"
+
 
 const Home = ({isLoggedIn}) => {
   return (
